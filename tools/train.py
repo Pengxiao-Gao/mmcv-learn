@@ -9,7 +9,7 @@ import time
 from typing import overload
 import warnings
 
-from mmmcv.utils import DictAction
+from mmmcv.utils import DictAction, Config
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a segmentor')
@@ -101,6 +101,7 @@ def parse_args():
 def main():
     args = parse_args()
 
+    cfg = Config.fromfile(args.config)
     print('over')
 
 
