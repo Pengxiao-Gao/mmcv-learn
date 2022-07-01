@@ -16,7 +16,8 @@
                 "/home/pengx/Documents/mmcv-learn/test/config/config_0.py",
                 "--work-dir", "/home/pengx/Downloads/mmseg_log",
                 "--seed", "0"
-            ]
+            ],
+            "env": {"PYTHONPATH": "${workspaceFolder}${pathSeparator}${env:PYTHONPATH}"}
         }
     ]
 }
