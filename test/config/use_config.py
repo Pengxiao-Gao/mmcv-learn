@@ -7,5 +7,5 @@ sys.path.append(os.pardir)
 
 from mmmcv.utils import Config
 
-cfg = Config.fromfile('config_0.py')
+cfg = Config.fromfile('config_a.py')
 print(cfg)
